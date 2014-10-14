@@ -11,9 +11,12 @@
 #import <OpenEars/OpenEarsEventsObserver.h>
 #import <OpenEars/PocketsphinxController.h>
 #import <OpenEars/AcousticModel.h>
+#import <OpenEars/OpenEarsEventsObserver.h>
 PocketsphinxController *pocketsphinxController;
-@interface ViewController : UIViewController
+OpenEarsEventsObserver *openEarsEventsObserver;
+@interface ViewController : UIViewController <OpenEarsEventsObserverDelegate>
 
 @property (strong, nonatomic) PocketsphinxController *pocketsphinxController;
+@property (strong, nonatomic) OpenEarsEventsObserver *openEarsEventsObserver;
 @end
 
