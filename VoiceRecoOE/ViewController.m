@@ -2,8 +2,8 @@
 //  ViewController.m
 //  VoiceRecoOE
 //
-//  Created by Beto Lucena on 2014-10-14.
-//  Copyright (c) 2014 Beto Lucena. All rights reserved.
+//  Created by Lucas Menezes on 2014-10-14.
+//  Copyright (c) 2014 Menezesworks. All rights reserved.
 //
 
 #import "ViewController.h"
